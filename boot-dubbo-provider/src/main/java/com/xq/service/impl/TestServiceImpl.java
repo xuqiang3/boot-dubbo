@@ -22,7 +22,7 @@ public class TestServiceImpl implements TestService {
         user.setId(1001);
         user.setUserName("scott");
         user.setPasswd("pwd");
-        user.setDesc("测试");
+        user.setDesc("测试信息");
         return user;
     }
 }
