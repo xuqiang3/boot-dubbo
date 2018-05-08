@@ -12,7 +12,7 @@ public class DisConfig {
     @Bean(destroyMethod = "destroy")
     public DisconfMgrBean getDisconfMgrBean() {
         DisconfMgrBean disconfMgrBean = new DisconfMgrBean();
-        disconfMgrBean.setScanPackage("com.wmq.consumer");
+        disconfMgrBean.setScanPackage("com.xq");
         return disconfMgrBean;
     }
 
